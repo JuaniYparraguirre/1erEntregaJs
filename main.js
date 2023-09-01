@@ -39,8 +39,8 @@
 // function TestIncrementar(a) {
 //   for (let i = 0; i < a; i++) {
 //     if (i < a) {
-//       console.log(a);
 //     }
+//     console.log(a);
 //   }
 // }
 // TestIncrementar(50);
@@ -66,13 +66,25 @@
 
 // 7 - Crear una función que reciba un array con 10 números e imprima por consola todos los valores de ese array, menos el que se encuentre en la 5ta posición del mismo. Ayuda: Recuerden que el primer índice de un array es "0".
 
-function TestSaltear5(array) {
-  for (let i = 0; i < array; i++) {
-    if (i === 5) {
-      continue;
-    }
-    console.log(array[i]);
-  }
-}
+// function TestSaltear5(array) {
+//   for (let i = 0; i < array.length; i++) {
+//     if (i === 5) {
+//       continue;
+//     }
+//     console.log(array[i]);
+//   }
+// }
 
-TestSaltear5([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]);
+// TestSaltear5([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]);
+
+// 8 - Crea una función que reciba un array de números y un número por parámetro e imprima por consola cada número del array multiplicado por el número pasado por parámetro.
+
+// function TestMultiplicarArray(array, num) {
+//   for (let i = 0; i < array.length; i++) {
+//     const resultado = array[i] * num;
+//     console.log(resultado);
+//   }
+// }
+// const numeros = [1, 2, 3, 4, 5, 6, 7];
+// const multiplicar = 8;
+// TestMultiplicarArray(numeros, multiplicar);
