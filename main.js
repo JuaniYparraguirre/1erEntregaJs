@@ -29,6 +29,8 @@
 // function TestMultiplo(a) {
 //   if (a % 5 === 0) {
 //     console.log(`${a} Es Multiplo de 5`);
+//   } else {
+//     console.log(`${a} No es multiplo de 5`);
 //   }
 // }
 
@@ -38,9 +40,7 @@
 
 // function TestIncrementar(a) {
 //   for (let i = 0; i < a; i++) {
-//     if (i < a) {
-//     }
-//     console.log(a);
+//     console.log(i);
 //   }
 // }
 // TestIncrementar(50);
@@ -86,5 +86,5 @@
 //   }
 // }
 // const numeros = [1, 2, 3, 4, 5, 6, 7];
-// const multiplicar = 8;
+// const multiplicar = 9;
 // TestMultiplicarArray(numeros, multiplicar);
